@@ -113,7 +113,7 @@
 
 
 
-            <Control xsi:type="Button" id="msgReadOpenPaneButton3">
+            <!-- <Control xsi:type="Button" id="msgReadOpenPaneButton3">
 							<Label resid="paneReadButtonLabel3" />
 							<Supertip>
 								<Title resid="paneReadSuperTipTitle3" />
@@ -127,7 +127,7 @@
 							<Action xsi:type="ExecuteFunction">
              <FunctionName>setEmail</FunctionName>
               </Action>
-						</Control>
+						</Control> -->
 					</Group>
 				</OfficeTab>
 			</ExtensionPoint>
@@ -164,10 +164,8 @@
         <bt:String id="paneReadButtonLabel" DefaultValue="Addin"/>
         <bt:String id="paneReadSuperTipTitle" DefaultValue="outlookAddin"/>
         <bt:String id="paneReadButtonLabel1" DefaultValue="Forword mail"/>
-        <bt:String id="paneReadButtonLabel3" DefaultValue="Set email"/>
         <bt:String id="paneReadSuperTipTitle1" DefaultValue="out"/>
 
-        <bt:String id="paneReadSuperTipTitle3" DefaultValue="any"/>
        
       </bt:ShortStrings>
       <bt:LongStrings>
